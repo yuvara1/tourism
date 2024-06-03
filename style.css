@@ -1,0 +1,111 @@
+
+body{margin: 0px;}
+div img
+{
+     position: absolute;
+     top: 0px;
+     height:720px;
+     width: 1275px;
+     background-size: cover;
+     background-position: center;
+     filter: brightness(80%);
+}
+header
+{
+     position: sticky;
+     top: 1px;
+     height: max-content;
+     width: 100%;
+     border-bottom: 2px solid;
+     box-sizing: border-box;
+     box-shadow: 3px wheat;
+     z-index: 2;
+}
+header h2
+{
+     position: absolute;
+     color: rgb(142, 184, 222);
+     font-family: "roboto",sans-serif;
+     margin-top: 9px;
+     width: fit-content;
+     align-content: center;
+     padding: 10px 10px;
+     display: inline;
+}
+nav
+{
+     display: inline-block;
+     position: relative;
+}
+header nav li
+{
+     position: relative;
+     width: fit-content;
+     margin-top: 9px;
+     border-radius: 9px;
+     padding: 15px 10px;
+     margin-left:500px;
+}
+header nav li
+{
+     list-style:none;
+     list-style-type: none;
+     color: white;
+     text-decoration: none;
+}
+header nav li a
+{
+     position:relative;
+     text-decoration: none;
+     color: white;
+     margin-left: 70px;
+    
+     font-family: "roboto",sans-serif;
+     padding: 10px 8px;
+     border-radius: 9px;
+     font-size: 20px;
+     text-transform: capitalize;
+}
+header nav li a:hover
+{
+     border-radius: 10px;
+     color: white;
+     background-color: black;
+     transition: 1s;
+}
+main pre
+{
+     position: relative;
+     margin-top: 100px;
+     margin-left: 650px;
+     font-family: "roboto",sans-serif;
+     font-size: 30px;
+}
+#sty
+{
+     font-family: monospace;
+}
+span{
+     color: rgb(51, 212, 212);
+
+}
+button
+{
+     display: inline-block;
+     margin-left: 30px;
+     padding: 8px 12px;
+     border-radius: 10px;
+     text-transform: capitalize;
+     font-family: "roboto",sans-serif;
+     font-size: 15px;
+     background-color: black;
+     color: white;
+     bottom: 3px;
+}
+button:hover
+{
+     color:black;
+     background-color: white;
+     transition: 1s;
+     bottom: 2px;
+}
